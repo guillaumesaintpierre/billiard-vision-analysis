@@ -1,5 +1,7 @@
 # Billiard Vision & Trajectory Analysis
 
+[![CI](https://github.com/guillaumesaintpierre/billiard-vision-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumesaintpierre/billiard-vision-analysis/actions/workflows/ci.yml)
+
 Multi-language engineering pipeline for automatic analysis of **three-cushion billiards** using **LabVIEW, C and MATLAB**.
 
 The system processes image sequences, detects the billiard table and ball positions, reconstructs trajectories, identifies motion and cushion-contact events, applies the three-cushion scoring rule, and generates a PDF score sheet plus a machine-readable summary.
