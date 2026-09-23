@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# C build artifacts
+/Pix2Pos
+*.o
+*.out
+
+# MATLAB temporary/autosave files
+*.asv
+*.m~
+
+# LabVIEW temporary files
+*.aliases
+*.lvlps
+*.tmp
+*.bak
+
+# Runtime intermediate files
+pixmap.bin
+pos.txt
+
+# Automatically generated sequence outputs
+AnalyseT*.m
+ScoreSheetT*.pdf
+SummaryT*.txt
+
+# Python test cache
+__pycache__/
+.pytest_cache/
+*.pyc
