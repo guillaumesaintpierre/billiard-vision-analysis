@@ -124,18 +124,25 @@ LabVIEW propagates errors through its error cluster and captures external-progra
 
 ## Example Results
 
-A small representative example will be included here rather than committing every generated sequence file.
+The complete pipeline produces both a visual score sheet and a compact
+machine-readable summary for each analyzed sequence.
 
-Planned public example:
+### Example — Sequence T1
 
-```text
-examples/T1/
-├── pos.txt
-├── SummaryT1.txt
-└── ScoreSheetT1.pdf
-```
+<p align="center">
+  <img src="docs/screenshots/scoresheet-t1.png"
+       alt="Billiard trajectory analysis result"
+       width="800">
+</p>
 
-A PNG preview of the best score sheet and, ideally, a short demo GIF will be added to `docs/screenshots/`.
+The output visualizes the reconstructed ball trajectories, initial
+positions and detected cushion-contact events used for shot analysis.
+
+The corresponding generated files are available in [`examples/T1`](examples/T1):
+
+- [`ScoreSheetT1.pdf`](examples/T1/ScoreSheetT1.pdf) — full vector result
+- [`SummaryT1.txt`](examples/T1/SummaryT1.txt) — machine-readable shot summary
+- [`pos.txt`](examples/T1/pos.txt) — example output from the C ball detector
 
 ## Contributors
 
